@@ -14,7 +14,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api': {
-        target: 'https://14f-dbudgetcalc.cyclic.app',
+        target: 'https://sore-blue-elephant-toga.cyclic.app',
         changeOrigin: true,
         secure: true
       }

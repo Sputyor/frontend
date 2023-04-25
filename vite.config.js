@@ -10,14 +10,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
-  server:{
-    proxy:{
-      '/api': {
-        target: 'https://sore-blue-elephant-toga.cyclic.app',
-        changeOrigin: true,
-        secure: true
-      }
-    }
   }
 })

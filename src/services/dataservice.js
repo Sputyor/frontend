@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const instance = Axios.create({
-    baseURL: 'https://main--visionary-croquembouche-50b9b6.netlify.app',
+    baseURL: 'https://sore-blue-elephant-toga.cyclic.app',
     headers:{
         'Content-Type' : 'application/json',
     },
